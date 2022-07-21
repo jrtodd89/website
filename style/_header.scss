@@ -1,0 +1,34 @@
+.header {
+	background-color: $primaryColor;
+	color: $textColor;
+	padding: 24px;
+	.cta {
+		h1 {
+			filter: drop-shadow(5px 5px 0 black);
+		}
+	}
+	.nav {
+		display: flex;
+		justify-content: flex-end;
+		@media screen and (max-width: 600px) {
+			justify-content: center;
+		}
+		.navLink {
+			text-decoration: none;
+			padding: 10px;
+			color: $textColor;
+			position: relative;
+			top: 0;
+			transition: top ease 0.5s;
+			&:hover {
+				top: -5px;
+			}
+			&:visited {
+				color: $textColor;
+			}
+			&:focus {
+				border: 2px dotted $textColor;
+			}
+		}
+	}
+}
