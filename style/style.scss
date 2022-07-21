@@ -1,0 +1,19 @@
+$primaryColor: #336699;
+$textColor: #ffffff;
+
+body {
+	background-color: $primaryColor;
+	color: $textColor;
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	max-width: 960px;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+
+	.upper-content {
+		display:flex;
+		align-items: center;
+	}
+}

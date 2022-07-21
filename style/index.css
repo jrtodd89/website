@@ -1,0 +1,18 @@
+body {
+  background-color: #336699;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+.container .upper-content {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.css.map */
