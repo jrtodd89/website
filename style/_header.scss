@@ -2,6 +2,7 @@
 	background-color: $primaryColor;
 	color: $textColor;
 	padding: 24px;
+	height: 205px;
 	.cta {
 		h1 {
 			filter: drop-shadow(5px 5px 0 black);
@@ -22,6 +23,7 @@
 			transition: top ease 0.5s;
 			&:hover {
 				top: -5px;
+				filter: drop-shadow(3px 3px 0 black);
 			}
 			&:visited {
 				color: $textColor;

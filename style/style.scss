@@ -17,3 +17,18 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
+
+.skip {
+	position: absolute;
+	top: -20%;
+	transition: top ease 0.25s;
+	color: $textColor;
+	&:visited {
+		color: $textColor;
+	}
+	&:focus{
+		top: 0;
+		border: 2px dotted $textColor;
+		text-decoration: none;
+	}
+}

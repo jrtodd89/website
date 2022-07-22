@@ -2,6 +2,7 @@
   background-color: #336699;
   color: #ffffff;
   padding: 24px;
+  height: 205px;
 }
 .header .cta h1 {
   filter: drop-shadow(5px 5px 0 black);
@@ -25,6 +26,7 @@
 }
 .header .nav .navLink:hover {
   top: -5px;
+  filter: drop-shadow(3px 3px 0 black);
 }
 .header .nav .navLink:visited {
   color: #ffffff;
@@ -48,6 +50,21 @@ body {
   position: relative;
   margin: 0 auto;
   padding: 10px;
+}
+
+.skip {
+  position: absolute;
+  top: -20%;
+  transition: top ease 0.25s;
+  color: #ffffff;
+}
+.skip:visited {
+  color: #ffffff;
+}
+.skip:focus {
+  top: 0;
+  border: 2px dotted #ffffff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
