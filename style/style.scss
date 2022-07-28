@@ -22,13 +22,13 @@ body {
 	position: absolute;
 	top: -20%;
 	transition: top ease 0.25s;
-	color: $textColor;
+	color: $lightText;
 	&:visited {
-		color: $textColor;
+		color: $lightText;
 	}
 	&:focus{
 		top: 0;
-		border: 2px dotted $textColor;
+		border: 2px dotted $lightText;
 		text-decoration: none;
 	}
 }

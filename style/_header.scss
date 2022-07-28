@@ -1,6 +1,6 @@
 .header {
 	background-color: $primaryColor;
-	color: $textColor;
+	color: $lightText;
 	padding: 24px;
 	height: 205px;
 	.cta {
@@ -17,7 +17,7 @@
 		.navLink {
 			text-decoration: none;
 			padding: 10px;
-			color: $textColor;
+			color: $lightText;
 			position: relative;
 			top: 0;
 			transition: top ease 0.5s;
@@ -26,10 +26,10 @@
 				filter: drop-shadow(3px 3px 0 black);
 			}
 			&:visited {
-				color: $textColor;
+				color: $lightText;
 			}
 			&:focus {
-				border: 2px dotted $textColor;
+				border: 2px dotted $lightText;
 			}
 		}
 	}
