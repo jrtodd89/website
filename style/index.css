@@ -1,5 +1,5 @@
 .header {
-  background-color: #336699;
+  background-color: #305B8B;
   color: #ffffff;
   padding: 24px;
   height: 205px;
@@ -37,7 +37,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 body {
